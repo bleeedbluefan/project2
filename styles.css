@@ -1,3 +1,54 @@
-.intro {
-    color: pink;
+.navbar {
+    background-color:black !important;
+    background-image: linear-gradient(to left,black, rgb(0, 129, 204));
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar-brand {
+    color: rgb(221, 221, 221) !important;
+}
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to left, black,rgb(0, 129, 204));
+}
+.main-screen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right, black,rgb(0, 129, 204)/*,rgb(0, 129, 204),rgb(0, 129, 204),rgb(0, 129, 204), black*/);
+}
+.page {  
+    padding-top: 60px;
+    width: 70%;
+    height: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/computer.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+.a:link, a:visited {
+    color:black;
+}
+
+.title {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+}
+.form-inline {
+    justify-content: center;
+    padding-top: 90px;
 }
