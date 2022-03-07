@@ -1,5 +1,3 @@
-const cors = require('cors');
-app.use(cors());
 document.getElementById("email-Submit").addEventListener("click", function(event) {
     event.preventDefault();
     const value = document.getElementById("email-Input").value;
