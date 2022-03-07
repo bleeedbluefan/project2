@@ -1,6 +1,5 @@
 .navbar {
-    background-color:black !important;
-    background-image: linear-gradient(to left,black, rgb(0, 129, 204));
+    background-color:rgb(99, 0, 0) !important;
     position: fixed;
     width: 100%;
     
@@ -13,7 +12,7 @@
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-image: linear-gradient(to left, black,rgb(0, 129, 204));
+    background-color:rgb(99, 0, 0);
 }
 .main-screen {
     display: flex;
@@ -21,34 +20,52 @@
     align-content: center;
     width: 100%;
     height: 800px;
-    background-image: linear-gradient(to right, black,rgb(0, 129, 204)/*,rgb(0, 129, 204),rgb(0, 129, 204),rgb(0, 129, 204), black*/);
+    background-image: url(/images/background.jpeg);
+    background-position: center center;
 }
 .page {  
+    display: flex;
+    flex-direction: column;
     padding-top: 60px;
     width: 70%;
     height: 100%;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/computer.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-color: white;
+    background-repeat: none;
     border-radius: 5px;
+    align-items: center;
 }
 .a:link, a:visited {
-    color:black;
+    color:rgb(221, 221, 221);
 }
 
 .title {
-    color: white;
+    color: rgb(197, 164, 19);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;;
     font-size: 60px;
     text-align: center;
     padding-top: 20px;
 }
 
-.page-main {
-    display: flex;
-    flex-direction: column;
-}
+
 .form-inline {
     justify-content: center;
     padding-top: 90px;
+}
+.cat-image {
+    display: flex;
+    width: 68%;
+    height: 500px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(images/cat4.jpeg);
+    flex-direction: column;
+    justify-content: center;
+}
+.cat-text {
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;;
 }
